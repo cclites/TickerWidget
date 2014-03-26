@@ -1,0 +1,349 @@
+.container{
+    width: 450px;
+    margin-top: 20%;
+}
+
+img{
+    z-index: 5 !important;
+}
+
+/*****************************************************************/
+/*                           RIBBON                              */
+/*****************************************************************/
+
+#widget-ribbon1{
+    position: relative;
+    top: -488px;
+    width: 400px;
+    height:80px;
+
+    float: left;
+    -webkit-box-shadow: 0px 0px 2px #000;
+    -moz-box-shadow: 0px 0px 2px #000;
+    box-shadow: 0px 0px 2px #000;
+    border-bottom: 1px solid #000;
+
+    background-color: #424870;
+    background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+    background-size: 53.5px 50px;
+}
+
+#widget-ribbon2{
+    position: relative;
+    top: -488px;
+    width: 400px;
+    height:80px;
+
+    float: left;
+    -webkit-box-shadow: 0px 0px 2px #000;
+    -moz-box-shadow: 0px 0px 2px #000;
+    box-shadow: 0px 0px 2px #000;
+    border-bottom: 1px solid #000;
+
+    background-color: #424870;
+    background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+    background-size: 53.5px 50px;
+}
+
+#widget-ribbon2 span{
+    display: inline-block;
+    font-size: 30px;
+    color: #ebebeb;
+    font-family: 'verdana';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 72px;
+}
+
+#widget-ribbon1:before{
+    z-index: -1;
+    position: absolute;
+    top:10px;
+    left:0;
+    width: 20px;
+    height: 81px;
+    content: '';
+    background-color: #000;
+    -webkit-transform: skewY(45deg);
+    -moz-transform: skewY(45deg);
+    -o-transform: skewY(45deg);
+    transform: skewY(45deg);
+    -webkit-box-shadow: inset 1px -1px 3px #000, 1px 1px 3px #000;
+    -moz-box-shadow: inset 1px -1px 3px #000, 1px 1px 3px #000;
+    box-shadow: inset 1px -1px 3px #000, 1px 1px 3px #000;
+}
+
+#widget-ribbon1:after{
+    z-index: -2;
+    position: absolute;
+    top:10px;
+    right:0;
+    width: 20px;
+    height: 81px;
+    content: '';
+    background-color: #34495e;
+    -webkit-transform: skewY(-45deg);
+    -moz-transform: skewY(-45deg);
+    -o-transform: skewY(-45deg);
+    transform: skewY(-45deg);
+
+
+    -webkit-box-shadow: inset 1px -1px 3px #000, 1px 1px 3px #000;
+    -moz-box-shadow: inset 1px -1px 3px #000, 1px 1px 3px #000;
+    box-shadow: inset 1px -1px 3px #000, 1px 1px 3px #000;
+}
+
+.circles{
+    height: 305px;
+    position: relative;
+    top: -389px;
+    z-index: 4;
+    left: 130px;
+    width: 250px;
+}
+
+#circle1{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #f1c40f;
+
+    position: relative;
+    top: 156px;
+    left: 26px;
+    z-index: 0;
+
+    background-image: url("Images/boards.png");
+}
+
+#circle2{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #C9631F;
+    /*background: url("Contents/Images/boards.png") repeat scroll 0 0 #C9631F;*/
+    z-index:1;
+
+
+    margin: 20px;
+    -webkit-box-shadow: 0px 4px 1px -1px #555);
+    -moz-box-shadow: 0px 4px 1px -1px #555;
+    box-shadow: 0px 4px 1px -1px #555;
+}
+
+#widget-ribbon1{
+    position: relative;
+    top: -489px;
+}
+
+#modo, #bot{
+    font-family: 'Rammetto One', cursive;
+    font-size: 36px;
+    width: 250px;
+    color: #ebebeb;
+    position: relative;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    text-shadow: 0px -2px 0px #374683;
+    top: -548px;
+}
+
+#modo{
+    left: 8px;
+}
+
+#bot{
+    left: 155px;
+}
+
+.letter{
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+.control-panel{
+
+    position: relative;
+    top: -408px;
+    left: 21px;
+    width: 359px;
+    height: 300px;
+    /*border: 1px solid #f9c76f;*/
+    background-color: #f4d5ab;
+    background-image: url("Images/rivets1.png");
+}
+
+.symbol{
+    height: 30px;
+    width: 25px;
+    color: #fff;
+}
+
+.data{
+    /*
+    position: relative;
+    top: -100px;
+    left: 18px;
+    */
+
+    position: relative;
+    width: 212px;
+    float: left;
+    left: 20px;
+    top: -99px;
+}
+
+.output{
+    width: 130px;
+   /* border: 1px solid blue;*/
+    height: 30px;
+    float: left;
+    line-height: 26px;
+    color: white;
+    font-size: 18px;
+}
+
+.label{
+    width: 60px;
+    height: 30px;
+    /*border: 1px solid red;*/
+    float: left;
+    line-height: 21px;
+    font-size: 18px;
+}
+
+.slider{
+    width: 90px;
+    max-height: 80px !important;
+    min-height: 80px !important;
+
+    position: relative;
+    left: -30px;
+    top: -97px;
+
+    /*
+    position: relative;
+    left: -178px;
+    top: 32px;
+    */
+    overflow-y: hidden;
+    overflow-x: hidden;
+    float: right;
+}
+
+.span3{
+    position: relative;
+    top: -10px;
+}
+
+
+#BITSTAMP{
+    height: 80px;
+    width: 80px;
+    background-image: url("Images/bitstamp.png");
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#BTCE{
+    height: 80px;
+    width: 79px;
+    background-image: url("Images/BTC-e.png");
+    background-position:center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+
+.thumb{
+    border-radius: 8px;
+    border: 5px solid #fff;
+    background: #fff;
+    height: 80px;
+    width: 80px;
+}
+
+.slider-buttons{
+    font-family:Glyphicons Halflings;
+    width: 26px;
+    height: 75px;
+    position: absolute;
+    left: 323px;
+    top: 38px;
+}
+
+.slider-buttons div{
+    height: 50%;
+    cursor: pointer;
+
+}
+
+.up-arrow{
+    padding-left: 1px;
+}
+
+.down-arrow{
+    width: 100%;
+    vertical-align: bottom;
+    padding-top: 15px;
+}
+
+
+
+.currency{
+    width: 255px;
+    position: absolute;
+    top: 144px;
+    left: 75px;
+}
+
+.selected-icon{
+    /*box-shadow: -1px 2px 12px 4px #008000;*/
+    /*border: 9px solid green;*/
+    background: #2ecc71;
+}
+
+.unselected-icon{
+    background: #374683;
+}
+
+.flags img{
+    height: 54px;
+    width: 54px;
+    border: none;
+    /*display: inline-block;*/
+    position: relative;
+    top: 1px;
+    /*left: -1px;
+    top: -1px;*/
+
+}
+
+.flags{
+    height: 56px;
+    width: 56px;
+    /*border: 1px solid black;*/
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    float: left;
+    cursor: pointer;
+}
+
+.currency div .usd{
+   /* border: 9px solid green;*/
+}
+
+.instructions{
+	width: 800px;
+	color: black;
+	position: relative;
+	top: -800px;
+}
+
