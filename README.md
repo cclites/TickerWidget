@@ -4,3 +4,6 @@ This is a simple ticker that pulls in the price of a Bitcoin and displays the pr
 
 This can be seen in action at: 
 https://extant.digital/TickerWidget
+
+DEPLOYMENT:
+Simply deploy the package to any PHP server and run. No API keys are required.
